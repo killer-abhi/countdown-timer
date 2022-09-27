@@ -1,0 +1,103 @@
+*{
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url("/images/bg-stars.svg");
+    background-repeat: no-repeat;
+    /* background-image: url("/images/pattern-hills.svg"); */
+    background-color: hsl(234, 17%, 12%);
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: 500;
+}
+
+@media (min-width:300px)and (max-width:600px) {
+
+    #mainTitle{
+        margin-top: 2em;
+        font-size: 1.5em;
+        text-align: center;
+        color: aliceblue;
+    }
+    .timer{
+        margin: 5em auto;
+        display: flex;
+        /* background-color: cyan; */
+        width: 20em;
+        justify-content: space-between;
+    }
+    .squares{
+        height: 4rem;
+        width: 4rem;
+        background-color: hsl(236, 21%, 26%);
+        border-radius: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: hsl(345, 95%, 68%);
+        font-size: 2em;
+    }
+    #squareText{
+        color: hsl(237, 18%, 59%);
+        margin-top: 1em;
+        font-size: 1em;
+        text-align: center;
+    }
+}
+@media (min-width:600px){
+
+    #mainTitle{
+        margin-top: 2em;
+        font-size: 2.5em;
+        text-align: center;
+        color: aliceblue;
+    }
+    .timer{
+        margin: 5em auto;
+        display: flex;
+        /* background-color: cyan;  */
+        width: 35em;
+        justify-content: space-between;
+    } 
+    .squares{
+        height: 7rem;
+        width: 7rem;
+        background-color: hsl(236, 21%, 26%);
+        border-radius: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: hsl(345, 95%, 68%);
+        font-size: 4em;
+    }
+    #squareText{
+        color: hsl(237, 18%, 59%);
+        margin-top: 1em;
+        font-size: 2em;
+        text-align: center;
+    }
+
+}
+
+.footer{
+    margin-top:10.5rem;
+    background: url("/images/pattern-hills.svg");
+    background-repeat: repeat-x;
+    background-size: cover;
+}
+.links{
+    /* background-color: aqua; */
+    margin: 0em auto;
+    width: 10em;
+    height: 10em;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+#link:hover{
+    color: aqua;
+    filter: brightness(200%);
+    cursor: pointer;
+}
