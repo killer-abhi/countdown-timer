@@ -5,9 +5,8 @@
     padding: 0;
 }
 body{
-    background: url("/images/bg-stars.svg");
+    background: url("./assets/images/bg-stars.svg");
     background-repeat: no-repeat;
-    /* background-image: url("/images/pattern-hills.svg"); */
     background-color: hsl(234, 17%, 12%);
     font-family: 'Red Hat Text', sans-serif;
     font-weight: 500;
@@ -83,7 +82,7 @@ body{
 
 .footer{
     margin-top:10.5rem;
-    background: url("/images/pattern-hills.svg");
+    background: url("./assets/images/pattern-hills.svg");
     background-repeat: repeat-x;
     background-size: cover;
 }
